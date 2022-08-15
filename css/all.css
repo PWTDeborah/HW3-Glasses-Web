@@ -50,7 +50,8 @@ table {
 
 img{
     vertical-align: middle;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 body{
@@ -90,15 +91,23 @@ a:hover{
 }
 
 .logo{
+    background-image: url(../images/logo-white.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
     width: 80px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    height: 81px;
+    display: inline-block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .menu{
