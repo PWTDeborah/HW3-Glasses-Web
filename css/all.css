@@ -89,6 +89,9 @@ a:hover{
     margin: 0 auto;
     padding: 0 12px;
 }
+h1{
+    float: left;
+}
 
 .logo{
     background-image: url(../images/logo-white.png);
